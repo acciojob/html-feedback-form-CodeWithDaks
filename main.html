@@ -8,9 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <script type="text/javascript" src="./script.js"></script>
+	<h1>Feedback Form</h1>
+	<form id ="my-form" method="post">
+	<div>
+	<label for ="name">Name:</label>
+	<input type="text" name="my name" id="name" minlength="3", maxlength="50" required >
+	</div><br>
 
+	<div>
+	<label for ="portfolio">Portfolio:</label>
+	<input type="url" name="my Portfolio " id="portfolio" required>
+	</div><br>
+	
+	<div>
+	<label for ="favColor">favColor:</label>
+	<input type="color" name="favColor " id="favColor">
+	</div><br>
+
+	<div>
+	<label for ="likeness">Likeness</label>
+	<input type="range" name="Likeness " id="likeness" min="1" max="100">
+	</div>
+		</form>
 </body>
 
 </html>
